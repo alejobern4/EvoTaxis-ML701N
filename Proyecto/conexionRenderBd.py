@@ -10,4 +10,4 @@ def get_render_connection():
     try:
         return psycopg2.connect(db_url)
     except Exception as e:
-        raise RuntimeError(f"Error al conectar a la base de datos: {e}")
+        raise RuntimeError(f"Error al conectar a la base de datos hola: {e}")
